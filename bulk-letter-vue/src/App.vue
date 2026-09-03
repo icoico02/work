@@ -19,7 +19,7 @@ const content = ref(`尊敬的 {{companyName}} 团队：
 如果您愿意了解详情，欢迎回复此邮件与我们联系。
 
 此致
-项目团队
+项目团队123123
 
 如不希望继续收到此类信件，请点击退订：{{unsubscribeUrl}}`)
 const recipients = ref([
