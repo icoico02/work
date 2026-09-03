@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript do...while 循环断点示例</title>
+
+  <script>
+    console.log("=== do...while 循环开始 ===");
+
+    var i = 1;
+
+    do {
+      debugger;  // 断点①：进入本轮 do-body 时暂停，可查看 i 的值
+
+      console.log("do...while 循环中：当前 i =", i);
+
+      console.log("do...while 第 " + i + " 次");
+
+      debugger;  // 断点②：本轮结束后暂停，可观察下一步将执行条件判断
+
+      i++;
+
+    } while (i <= 5);
+
+    console.log("=== do...while 循环结束 ===");
+  </script>
+</head>
+
+<body>
+  <h1>JavaScript do...while 示例（带断点）</h1>
+
+  <p>① 打开浏览器，按 <strong>F12</strong> 打开开发者工具</p>
+  <p>② 刷新页面 → 会在 debugger 位置自动停住</p>
+  <p>③ 按 <strong>F10</strong> (Step Over) 查看代码逐步执行</p>
+  <p>断点①：进入本轮循环时暂停（查看 i 当前值）</p>
+  <p>断点②：本轮执行完毕后暂停（查看下一步动作）</p>
+</body>
+</html>

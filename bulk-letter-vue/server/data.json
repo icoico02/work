@@ -1,0 +1,46 @@
+{
+  "recipients": [
+    {
+      "companyName": "wang",
+      "email": "wangyonghuang@firstdevelop.com"
+    },
+    {
+      "companyName": "ww",
+      "email": "wd5080849@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "id": "387b70e5-8464-414d-a664-c60f1dc13f27",
+      "username": "wangyonghuang",
+      "role": "admin",
+      "salt": "1914edc702469b3d4ea73128806f58af",
+      "passwordHash": "af404dd1ff11c4964bb5575a1a96072453a8153a0d3266d24a49f93d0a8da743e20f6b30fd480fd81e0a413c6eda69bab59731f4206955f433aac472473daaf6",
+      "createdAt": "2026-09-03T01:16:34.444Z"
+    },
+    {
+      "id": "27425a99-0939-484f-a767-22eef52a91ae",
+      "username": "admin",
+      "role": "admin",
+      "salt": "efc6cd6597ba5774e9e9cddd58c49b30",
+      "passwordHash": "28af26f192416bf59930106b459d8f5d74cea0e1030632a662be841a542309877ae588974329668e07c026aa47c8f61cb6521d810316ddec32b767f40367522b",
+      "createdAt": "2026-09-03T01:19:56.199Z"
+    },
+    {
+      "id": "0026726d-5c59-42d3-b169-0fe2c08499e2",
+      "username": "user",
+      "role": "user",
+      "salt": "c910080246d42c3f4f715722deba988a",
+      "passwordHash": "ab7608285eb0582fa7b6007d60bce115c72c821326943cdde55da11152911e7073a82cca0403c9f6ab398dacb4325337291784e563b598d3a2ffb035cb8e7eff",
+      "createdAt": "2026-09-03T01:20:07.742Z"
+    },
+    {
+      "id": "ce3c3661-8663-4f8c-b27a-0908e4015e29",
+      "username": "wwww",
+      "role": "admin",
+      "salt": "832635608be3d1a545c6aff97f50986a",
+      "passwordHash": "aad2c233326316a4d25870921c8736854da444632731bcedeeddb00275c4da702e3362f0ed875b0f35e9557be5d6bcc341408409f1f8441c05e3e2d2a7c8c389",
+      "createdAt": "2026-09-03T01:39:14.355Z"
+    }
+  ]
+}
